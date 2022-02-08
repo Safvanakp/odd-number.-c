@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+int min, max;
+printf("Enter min&max values") ;
+scanf("%d%d", &min, &max) ;
+for(int i=min;i<=max;i++)
+{ 
+printf("\n");
+if(min%2==0)
+printf("%d", min);
+Min++;
+}
+    return 0;
+}
